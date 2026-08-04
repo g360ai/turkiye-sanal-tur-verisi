@@ -1,0 +1,24 @@
+{
+  "veri_seti": "Türkiye Sanal Tur Veri Seti",
+  "surum": "2026.08",
+  "guncelleme": "2026-08-03",
+  "kaynak": "G360 (https://g360.ai)",
+  "lisans": "CC BY 4.0",
+  "kapsam": {
+    "toplam_kayit": 1247,
+    "turkiye": 1202,
+    "yurtdisi": 45
+  },
+  "turkiye": {
+    "isletme": 1202,
+    "il": 54,
+    "ilce": 183,
+    "sektor": 25,
+    "ortalama_google_puan": 4.28,
+    "toplam_google_yorum": 792602,
+    "medyan_google_yorum": 104.5,
+    "puan_4_5_ve_uzeri": 514,
+    "en_buyuk_sektor": "Restoran",
+    "en_yogun_il": "Ankara"
+  }
+}

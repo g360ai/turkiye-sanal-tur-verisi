@@ -1,0 +1,291 @@
+il,sektor_kod,sektor,isletme_sayisi
+Ankara,restoran,Restoran,74
+İstanbul,restoran,Restoran,40
+Ankara,kafe,Kafe,39
+Trabzon,restoran,Restoran,30
+Gaziantep,mobilya,Mobilya Mağazası,28
+Muğla,restoran,Restoran,26
+Ankara,magaza,Mağaza,25
+Adana,restoran,Restoran,23
+İstanbul,kafe,Kafe,20
+Tekirdağ,restoran,Restoran,19
+Muğla,magaza,Mağaza,18
+Muğla,kafe,Kafe,17
+Çorum,mobilya,Mobilya Mağazası,17
+Tekirdağ,mobilya,Mobilya Mağazası,16
+Ankara,klinik,Klinik,14
+Ankara,mobilya,Mobilya Mağazası,14
+Diyarbakır,mobilya,Mobilya Mağazası,14
+Trabzon,kafe,Kafe,14
+İstanbul,mobilya,Mobilya Mağazası,14
+Gaziantep,magaza,Mağaza,13
+Kayseri,restoran,Restoran,13
+İstanbul,magaza,Mağaza,12
+Muğla,otel,Otel,11
+Sakarya,restoran,Restoran,11
+Trabzon,otel,Otel,11
+Diyarbakır,restoran,Restoran,10
+Erzurum,restoran,Restoran,10
+Ankara,kuyumcu,Kuyumcu,9
+Bolu,mobilya,Mobilya Mağazası,9
+Konya,mobilya,Mobilya Mağazası,9
+Muğla,pub,Pub ve Bar,9
+Rize,mobilya,Mobilya Mağazası,9
+İstanbul,klinik,Klinik,9
+Balıkesir,mobilya,Mobilya Mağazası,8
+Bolu,restoran,Restoran,8
+Tekirdağ,magaza,Mağaza,8
+Aksaray,restoran,Restoran,7
+Aksaray,mobilya,Mobilya Mağazası,7
+Ankara,guzellik,Güzellik Salonu,7
+Diyarbakır,kafe,Kafe,7
+Gaziantep,beyazesya,Beyaz Eşya,7
+Konya,restoran,Restoran,7
+Yalova,restoran,Restoran,7
+Çanakkale,mobilya,Mobilya Mağazası,7
+Ankara,otomotiv,Otomotiv,6
+Ankara,pub,Pub ve Bar,6
+Bolu,magaza,Mağaza,6
+Eskişehir,restoran,Restoran,6
+Gaziantep,klinik,Klinik,6
+Kayseri,klinik,Klinik,6
+Muğla,otomotiv,Otomotiv,6
+Nevşehir,kafe,Kafe,6
+Trabzon,magaza,Mağaza,6
+İzmir,restoran,Restoran,6
+Ankara,spor,Spor Salonu,5
+Bolu,kuyumcu,Kuyumcu,5
+Bursa,restoran,Restoran,5
+Diyarbakır,magaza,Mağaza,5
+Gaziantep,restoran,Restoran,5
+Kocaeli,restoran,Restoran,5
+Muğla,klinik,Klinik,5
+Sakarya,otel,Otel,5
+Sivas,restoran,Restoran,5
+Tekirdağ,kafe,Kafe,5
+Tokat,mobilya,Mobilya Mağazası,5
+Trabzon,mobilya,Mobilya Mağazası,5
+Şanlıurfa,mobilya,Mobilya Mağazası,5
+Antalya,restoran,Restoran,4
+Bolu,otel,Otel,4
+Bolu,kafe,Kafe,4
+Denizli,magaza,Mağaza,4
+Düzce,restoran,Restoran,4
+Edirne,mobilya,Mobilya Mağazası,4
+Gaziantep,guzellik,Güzellik Salonu,4
+Kayseri,magaza,Mağaza,4
+Kayseri,mobilya,Mobilya Mağazası,4
+Kayseri,kafe,Kafe,4
+Muğla,mobilya,Mobilya Mağazası,4
+Muğla,egitim,Eğitim Kurumu,4
+Ordu,mobilya,Mobilya Mağazası,4
+Sivas,kafe,Kafe,4
+Tekirdağ,pub,Pub ve Bar,4
+Tekirdağ,klinik,Klinik,4
+İstanbul,guzellik,Güzellik Salonu,4
+İstanbul,otomotiv,Otomotiv,4
+Adana,otel,Otel,3
+Amasya,mobilya,Mobilya Mağazası,3
+Ankara,giyim,Giyim Mağazası,3
+Antalya,magaza,Mağaza,3
+Antalya,otel,Otel,3
+Antalya,diger,Diğer,3
+Aydın,restoran,Restoran,3
+Bartın,restoran,Restoran,3
+Denizli,restoran,Restoran,3
+Diyarbakır,klinik,Klinik,3
+Düzce,mobilya,Mobilya Mağazası,3
+Düzce,pub,Pub ve Bar,3
+Elazığ,restoran,Restoran,3
+Erzurum,otel,Otel,3
+Eskişehir,magaza,Mağaza,3
+Gaziantep,kafe,Kafe,3
+Kahramanmaraş,mobilya,Mobilya Mağazası,3
+Kayseri,cicekci,Çiçekçi,3
+Kocaeli,ozel,Özel Proje,3
+Kırklareli,mobilya,Mobilya Mağazası,3
+Kırklareli,restoran,Restoran,3
+Kırıkkale,restoran,Restoran,3
+Malatya,klinik,Klinik,3
+Malatya,mobilya,Mobilya Mağazası,3
+Nevşehir,restoran,Restoran,3
+Tekirdağ,kuyumcu,Kuyumcu,3
+Trabzon,ozel,Özel Proje,3
+Yalova,magaza,Mağaza,3
+Çanakkale,magaza,Mağaza,3
+İstanbul,otel,Otel,3
+Adana,magaza,Mağaza,2
+Afyonkarahisar,restoran,Restoran,2
+Ankara,telefon,Telefon Mağazası,2
+Ankara,beyazesya,Beyaz Eşya,2
+Ankara,yapimarket,Yapı Market,2
+Ankara,ozel,Özel Proje,2
+Ankara,aspava,Aspava,2
+Balıkesir,otel,Otel,2
+Balıkesir,magaza,Mağaza,2
+Bartın,kafe,Kafe,2
+Bilecik,mobilya,Mobilya Mağazası,2
+Bolu,otomotiv,Otomotiv,2
+Bolu,spor,Spor Salonu,2
+Bursa,otel,Otel,2
+Denizli,kafe,Kafe,2
+Diyarbakır,guzellik,Güzellik Salonu,2
+Diyarbakır,otel,Otel,2
+Düzce,kafe,Kafe,2
+Elazığ,mobilya,Mobilya Mağazası,2
+Eskişehir,kafe,Kafe,2
+Eskişehir,mobilya,Mobilya Mağazası,2
+Giresun,mobilya,Mobilya Mağazası,2
+Giresun,otel,Otel,2
+Karabük,restoran,Restoran,2
+Kayseri,otomotiv,Otomotiv,2
+Kocaeli,kafe,Kafe,2
+Kocaeli,magaza,Mağaza,2
+Kocaeli,otel,Otel,2
+Konya,otel,Otel,2
+Konya,kafe,Kafe,2
+Konya,beyazesya,Beyaz Eşya,2
+Kırşehir,restoran,Restoran,2
+Mardin,klinik,Klinik,2
+Muğla,giyim,Giyim Mağazası,2
+Muğla,yapimarket,Yapı Market,2
+Niğde,kafe,Kafe,2
+Niğde,restoran,Restoran,2
+Ordu,kafe,Kafe,2
+Sakarya,kafe,Kafe,2
+Sivas,magaza,Mağaza,2
+Sivas,mobilya,Mobilya Mağazası,2
+Tekirdağ,otel,Otel,2
+Tekirdağ,cicekci,Çiçekçi,2
+Tokat,restoran,Restoran,2
+Trabzon,otomotiv,Otomotiv,2
+Yalova,mobilya,Mobilya Mağazası,2
+Çanakkale,restoran,Restoran,2
+Çorum,magaza,Mağaza,2
+Çorum,restoran,Restoran,2
+İstanbul,giyim,Giyim Mağazası,2
+İstanbul,spor,Spor Salonu,2
+İstanbul,cicekci,Çiçekçi,2
+İzmir,magaza,Mağaza,2
+Adana,kafe,Kafe,1
+Adana,pub,Pub ve Bar,1
+Adana,ozel,Özel Proje,1
+Adana,cicekci,Çiçekçi,1
+Adana,klinik,Klinik,1
+Adıyaman,kafe,Kafe,1
+Afyonkarahisar,market,Market,1
+Afyonkarahisar,magaza,Mağaza,1
+Afyonkarahisar,otomotiv,Otomotiv,1
+Afyonkarahisar,pub,Pub ve Bar,1
+Afyonkarahisar,otel,Otel,1
+Aksaray,kafe,Kafe,1
+Aksaray,otel,Otel,1
+Amasya,kafe,Kafe,1
+Amasya,restoran,Restoran,1
+Ankara,egitim,Eğitim Kurumu,1
+Ankara,petshop,Pet Shop,1
+Ankara,eczane,Eczane,1
+Ankara,kirtasiye,Kırtasiye,1
+Ankara,otel,Otel,1
+Antalya,kafe,Kafe,1
+Antalya,pub,Pub ve Bar,1
+Antalya,guzellik,Güzellik Salonu,1
+Aydın,magaza,Mağaza,1
+Aydın,kafe,Kafe,1
+Aydın,otomotiv,Otomotiv,1
+Balıkesir,kafe,Kafe,1
+Balıkesir,restoran,Restoran,1
+Balıkesir,beyazesya,Beyaz Eşya,1
+Balıkesir,spor,Spor Salonu,1
+Balıkesir,klinik,Klinik,1
+Bartın,otel,Otel,1
+Bilecik,kafe,Kafe,1
+Bolu,ozel,Özel Proje,1
+Bolu,giyim,Giyim Mağazası,1
+Bolu,kirtasiye,Kırtasiye,1
+Denizli,otomotiv,Otomotiv,1
+Denizli,pub,Pub ve Bar,1
+Denizli,mobilya,Mobilya Mağazası,1
+Diyarbakır,pub,Pub ve Bar,1
+Diyarbakır,giyim,Giyim Mağazası,1
+Düzce,otel,Otel,1
+Edirne,beyazesya,Beyaz Eşya,1
+Edirne,kafe,Kafe,1
+Elazığ,aspava,Aspava,1
+Elazığ,magaza,Mağaza,1
+Elazığ,beyazesya,Beyaz Eşya,1
+Elazığ,kafe,Kafe,1
+Erzurum,kafe,Kafe,1
+Eskişehir,cicekci,Çiçekçi,1
+Gaziantep,spor,Spor Salonu,1
+Gaziantep,cicekci,Çiçekçi,1
+Gaziantep,giyim,Giyim Mağazası,1
+Giresun,magaza,Mağaza,1
+Giresun,restoran,Restoran,1
+Giresun,beyazesya,Beyaz Eşya,1
+Hatay,otomotiv,Otomotiv,1
+Karabük,otel,Otel,1
+Kayseri,giyim,Giyim Mağazası,1
+Kilis,mobilya,Mobilya Mağazası,1
+Kilis,magaza,Mağaza,1
+Konya,pub,Pub ve Bar,1
+Konya,magaza,Mağaza,1
+Kırklareli,guzellik,Güzellik Salonu,1
+Kırklareli,beyazesya,Beyaz Eşya,1
+Kırklareli,otel,Otel,1
+Kırklareli,giyim,Giyim Mağazası,1
+Kırıkkale,pub,Pub ve Bar,1
+Kırıkkale,aspava,Aspava,1
+Malatya,magaza,Mağaza,1
+Malatya,beyazesya,Beyaz Eşya,1
+Manisa,restoran,Restoran,1
+Mardin,restoran,Restoran,1
+Mardin,pub,Pub ve Bar,1
+Mardin,beyazesya,Beyaz Eşya,1
+Muğla,guzellik,Güzellik Salonu,1
+Muğla,spor,Spor Salonu,1
+Muğla,petshop,Pet Shop,1
+Nevşehir,pub,Pub ve Bar,1
+Nevşehir,mobilya,Mobilya Mağazası,1
+Nevşehir,guzellik,Güzellik Salonu,1
+Nevşehir,magaza,Mağaza,1
+Niğde,mobilya,Mobilya Mağazası,1
+Niğde,magaza,Mağaza,1
+Ordu,klinik,Klinik,1
+Ordu,restoran,Restoran,1
+Osmaniye,restoran,Restoran,1
+Osmaniye,otel,Otel,1
+Osmaniye,kafe,Kafe,1
+Rize,restoran,Restoran,1
+Sakarya,magaza,Mağaza,1
+Sakarya,pub,Pub ve Bar,1
+Sakarya,mobilya,Mobilya Mağazası,1
+Sakarya,giyim,Giyim Mağazası,1
+Samsun,pub,Pub ve Bar,1
+Samsun,magaza,Mağaza,1
+Sivas,guzellik,Güzellik Salonu,1
+Sivas,klinik,Klinik,1
+Sivas,giyim,Giyim Mağazası,1
+Tekirdağ,otomotiv,Otomotiv,1
+Tekirdağ,giyim,Giyim Mağazası,1
+Tekirdağ,guzellik,Güzellik Salonu,1
+Trabzon,cicekci,Çiçekçi,1
+Trabzon,kirtasiye,Kırtasiye,1
+Trabzon,spor,Spor Salonu,1
+Trabzon,giyim,Giyim Mağazası,1
+Zonguldak,restoran,Restoran,1
+Çanakkale,guzellik,Güzellik Salonu,1
+Çanakkale,klinik,Klinik,1
+Çanakkale,kafe,Kafe,1
+Çorum,giyim,Giyim Mağazası,1
+Çorum,kafe,Kafe,1
+Çorum,guzellik,Güzellik Salonu,1
+Çorum,otomotiv,Otomotiv,1
+İstanbul,pub,Pub ve Bar,1
+İstanbul,optik,Optik,1
+İstanbul,eczane,Eczane,1
+İstanbul,beyazesya,Beyaz Eşya,1
+İstanbul,kuyumcu,Kuyumcu,1
+İzmir,klinik,Klinik,1
+Şanlıurfa,kafe,Kafe,1
+Şanlıurfa,otel,Otel,1

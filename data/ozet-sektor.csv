@@ -1,0 +1,26 @@
+sektor_kod,sektor,isletme_sayisi,pay_yuzde,ort_google_puan,medyan_yorum,toplam_yorum
+restoran,Restoran,369,30.7,4.18,339,386620
+mobilya,Mobilya Mağazası,215,17.9,4.22,22,14995
+kafe,Kafe,156,13.0,4.22,146.5,51705
+magaza,Mağaza,136,11.3,4.3,36.0,25794
+otel,Otel,66,5.5,4.49,337.0,41848
+klinik,Klinik,58,4.8,4.76,45.0,4943
+pub,Pub ve Bar,34,2.8,4.12,288.0,21246
+otomotiv,Otomotiv,28,2.3,4.41,66.0,4974
+guzellik,Güzellik Salonu,25,2.1,4.45,43,1776
+beyazesya,Beyaz Eşya,19,1.6,4.17,133,4260
+kuyumcu,Kuyumcu,18,1.5,4.56,15.0,1075
+giyim,Giyim Mağazası,17,1.4,4.15,29,1826
+spor,Spor Salonu,13,1.1,4.73,103,2672
+cicekci,Çiçekçi,11,0.9,4.44,20,439
+ozel,Özel Proje,10,0.8,4.27,2724.5,220673
+egitim,Eğitim Kurumu,5,0.4,4.04,26,202
+yapimarket,Yapı Market,4,0.3,4.83,14.0,90
+aspava,Aspava,4,0.3,4.15,1142.5,5286
+kirtasiye,Kırtasiye,3,0.2,4.53,240,1263
+diger,Diğer,3,0.2,,0,0
+telefon,Telefon Mağazası,2,0.2,4.1,13.0,26
+petshop,Pet Shop,2,0.2,4.4,26.5,53
+eczane,Eczane,2,0.2,4.35,42.5,85
+market,Market,1,0.1,4.7,750,750
+optik,Optik,1,0.1,5.0,1,1
