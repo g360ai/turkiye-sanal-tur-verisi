@@ -1,3 +1,4 @@
 scripts/** linguist-detectable=false
 data/*.csv linguist-detectable=false
 data/*.json linguist-detectable=false
+data/*.geojson linguist-detectable=false

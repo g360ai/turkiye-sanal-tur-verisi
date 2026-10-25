@@ -2,14 +2,14 @@ cff-version: 1.2.0
 title: "Türkiye Sanal Tur Veri Seti / Turkey Virtual Tour Dataset"
 message: "Bu veri setini kullanırsanız lütfen aşağıdaki gibi kaynak gösterin."
 type: dataset
-version: "2026.08"
-date-released: 2026-08-03
+version: "2026.10"
+date-released: 2026-10-25
 license: CC-BY-4.0
 url: "https://g360.ai/veri/sanal-tur-raporu"
 repository-code: "https://github.com/g360ai/turkiye-sanal-tur-verisi"
 abstract: >-
   Türkiye genelinde 360 derece sanal turu çekilip Google Haritalar'da yayınlanmış
-  1.202 işletmenin sektörel ve coğrafi dağılımını içeren açık veri seti.
+  1.457 işletmenin sektörel ve coğrafi dağılımını içeren açık veri seti.
   2018'den bu yana G360 tarafından üretilen arşivden derlenmiştir.
 keywords:
   - sanal tur

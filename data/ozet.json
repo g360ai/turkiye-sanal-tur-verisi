@@ -1,24 +1,36 @@
 {
   "veri_seti": "Türkiye Sanal Tur Veri Seti",
-  "surum": "2026.08",
-  "guncelleme": "2026-08-03",
+  "surum": "2026.10",
+  "guncelleme": "2026-10-25",
   "kaynak": "G360 (https://g360.ai)",
   "lisans": "CC BY 4.0",
   "kapsam": {
-    "toplam_kayit": 1247,
-    "turkiye": 1202,
-    "yurtdisi": 45
+    "toplam_kayit": 1540,
+    "turkiye": 1457,
+    "yurtdisi": 83
   },
   "turkiye": {
-    "isletme": 1202,
-    "il": 54,
-    "ilce": 183,
+    "isletme": 1457,
+    "il": 55,
+    "ilce": 199,
     "sektor": 25,
-    "ortalama_google_puan": 4.28,
-    "toplam_google_yorum": 792602,
-    "medyan_google_yorum": 104.5,
-    "puan_4_5_ve_uzeri": 514,
+    "toplam_sahne": 11618,
+    "street_view_yayinli": 1449,
+    "ortalama_google_puan": 4.29,
+    "toplam_google_yorum": 1029954,
+    "medyan_google_yorum": 112,
+    "puan_4_5_ve_uzeri": 607,
     "en_buyuk_sektor": "Restoran",
     "en_yogun_il": "Ankara"
+  },
+  "yurtdisi": {
+    "isletme": 83,
+    "bolge": [
+      "Alberta",
+      "Saskatchewan"
+    ],
+    "ulke": [
+      "CA"
+    ]
   }
 }

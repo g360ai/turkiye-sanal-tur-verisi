@@ -1,47 +1,63 @@
 # Turkey Virtual Tour Dataset
 
-An open dataset covering **1,202 businesses in Türkiye** whose 360° virtual tours have been
+An open dataset covering **1,457 businesses in Türkiye** whose 360° virtual tours have been
 captured and published on Google Maps, with their sectoral and geographic distribution.
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](LICENSE)
-![Records](https://img.shields.io/badge/records-1%2C202-green)
-![Provinces](https://img.shields.io/badge/provinces-54-green)
+![Records](https://img.shields.io/badge/records-1%2C457-green)
+![Provinces](https://img.shields.io/badge/provinces-55-green)
+![Version](https://img.shields.io/badge/version-2026.10-lightgrey)
 
-Compiled from the archive produced by [G360](https://g360.ai) since 2018. To our knowledge
-this is the only structured open dataset showing where virtual tour adoption concentrates in
-Türkiye, by sector and by city.
+The data is compiled from the virtual tour archive produced by [G360](https://g360.ai)
+since 2018. It is the only known structured open source showing which sectors and cities
+virtual tour adoption concentrates in across Türkiye.
+
+**Free to use.** The only condition is attribution — details below.
 
 ## Headline figures
 
 | | |
 |---|---|
-| Businesses (Türkiye) | **1,202** |
-| Provinces | **54** |
-| Districts | **183** |
+| Businesses (Türkiye) | **1,457** |
+| Provinces | **55** |
+| Districts | **199** |
 | Sectors | **25** |
-| Average Google rating | **4.28** |
-| Total Google reviews | **792,602** |
-| Rated 4.5 or above | **514** (43%) |
-| Largest sector | Restaurants (369 · 30.7%) |
-| Densest province | Ankara (217) |
+| Total tour scenes | **11,618** |
+| Also live on Google Street View | **1,449** |
+| Average Google rating | **4.29** |
+| Total Google reviews | **1,029,954** |
+| Rated 4.5 or above | **607** (42%) |
+| Largest sector | Restaurants (462 · 31.7%) |
+| Densest province | Ankara (275) |
 
-The dataset also contains 45 records from Canada; summary tables cover Türkiye only.
+The dataset also contains **83** records from Canada (Alberta and Saskatchewan); summary
+tables cover Türkiye only.
 
 ## Files
 
 | File | Contents |
 |---|---|
-| `data/isletmeler.csv` | All records, business level (1,247 rows) |
+| `data/isletmeler.csv` | All records, business level (1,540 rows) |
 | `data/isletmeler.json` | Same data in JSON |
-| `data/ozet-sektor.csv` | Distribution and ratings by sector |
+| `data/isletmeler.geojson` | Same data as a point layer for GIS tools |
+| `data/ozet-sektor.csv` | Distribution, ratings and scenes by sector |
 | `data/ozet-il.csv` | Distribution by province |
 | `data/ozet-ilce.csv` | Distribution by district |
 | `data/ozet-il-sektor.csv` | Province × sector intersection |
+| `data/ozet-yil.csv` | Distribution by capture year |
+| `data/ozet-puan-dagilimi.csv` | Distribution by Google rating band |
+| `data/sektorler.csv` | Sector code dictionary |
 | `data/ozet.json` | Machine-readable headline figures |
 
 Column names are Turkish. Key fields: `ad` (name), `il` (province), `ilce` (district),
 `sektor` (sector), `google_puan` (rating), `google_yorum_sayisi` (review count),
-`enlem`/`boylam` (lat/lng), `tur_url` (virtual tour page).
+`enlem`/`boylam` (lat/lng), `tur_url` (virtual tour page), `sahne_sayisi` (number of 360°
+scenes), `street_view_var` (also published on Google Street View, `1`/`0`),
+`sektor_etiketleri` (all sector tags, `|` separated), `cekim_yili` (capture year),
+`yayin_yili` (publication year).
+
+Full field reference: [VERI-SOZLUGU.md](VERI-SOZLUGU.md) (Turkish) ·
+Version history: [CHANGELOG.md](CHANGELOG.md)
 
 ## Quick start
 
@@ -53,6 +69,13 @@ df = pd.read_csv(
 )
 tr = df[df.ulke == "TR"]
 print(tr.sektor.value_counts())
+print(tr.groupby("sektor").sahne_sayisi.mean().sort_values(ascending=False))
+```
+
+```python
+import geopandas as gpd
+
+gdf = gpd.read_file("data/isletmeler.geojson")
 ```
 
 ## Methodology and limitations
@@ -64,15 +87,19 @@ See [METODOLOJI.md](METODOLOJI.md) (Turkish). In short:
 - **Ratings and review counts are not outcomes of the virtual tour.** They reflect each
   business's general Google performance. The dataset makes no causal claim.
 - **Sector is assigned from the primary category.** For multi-category records the first
-  category is used.
+  category becomes `sektor_kod`; every tag is kept in `sektor_etiketleri`.
+- **Capture year is not known for every record.** It is populated for 363 records in
+  2026.10, so the year table describes that subset, not the whole archive.
 - **The sample is not random.** Businesses entered this archive through a commercial
   process, so both geographic and sectoral distribution are biased.
+- **No personal or contact data is published.** Phone numbers, addresses, websites,
+  opening hours and review texts are deliberately excluded.
 
 ## Citation
 
-Required under CC BY 4.0.
+Attribution is required for any use of this data (CC BY 4.0).
 
-> G360. (2026). *Turkey Virtual Tour Dataset* (Version 2026.08) [Data set].
+> G360. (2026). *Turkey Virtual Tour Dataset* (Version 2026.10) [Data set].
 > https://github.com/g360ai/turkiye-sanal-tur-verisi
 
 Machine-readable: [CITATION.cff](CITATION.cff)

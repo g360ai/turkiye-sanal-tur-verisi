@@ -10,9 +10,9 @@ nasıl okunması gerektiğini açıklar.
 Veri setindeki her kayıt, **G360 tarafından 360° sanal turu çekilmiş ve Google Haritalar'da
 yayınlanmış** bir işletmeye karşılık gelir.
 
-- Toplam kayıt: **1.247**
-- Türkiye: **1.202**
-- Yurt dışı (Kanada): **45**
+- Toplam kayıt: **1.540**
+- Türkiye: **1.457**
+- Yurt dışı (Kanada — Alberta ve Saskatchewan): **83**
 
 Özet tabloları (`ozet-*.csv`) yalnızca Türkiye kayıtlarını kapsar. `isletmeler.csv`'de her
 iki grup da yer alır ve `ulke` alanıyla ayrılır.
@@ -38,10 +38,10 @@ Dolayısıyla bu veriden şu tür sonuçlar **çıkarılamaz:**
 Örneklem seçkisiz değildir. İşletmeler bu arşive ticari bir süreç sonucunda girmiştir;
 yani birileri hizmet satın almıştır. Bunun üç görünür sonucu var:
 
-**Coğrafi yanlılık.** Ankara (217) ve Muğla (107) gibi illerin öne çıkması, bu illerde sanal
+**Coğrafi yanlılık.** Ankara (275) ve Muğla (128) gibi illerin öne çıkması, bu illerde sanal
 turun daha yaygın olmasından değil, üreticinin saha yoğunluğundandır.
 
-**Sektörel yanlılık.** Restoranların %30,7 pay alması, restoranların sanal tura daha yatkın
+**Sektörel yanlılık.** Restoranların %31,7 pay alması, restoranların sanal tura daha yatkın
 olmasını gösterebilir; ama satış odağının bu sektörde yoğunlaşmasını da gösterebilir. İki
 etki bu veriyle ayrıştırılamaz.
 
@@ -61,6 +61,11 @@ biçimde büyütür. Örneğin beyaz eşya kayıtlarının 7'si tek bir ildedir.
 | `enlem`, `boylam` | Google Places |
 | `google_cid`, `google_place_id` | Google Haritalar tanımlayıcıları |
 | `tur_url` | G360 tur sayfası |
+| `sektor_etiketleri` | G360 kategori etiketlerinin tamamı |
+| `sahne_sayisi` | G360 tur üretim kaydı |
+| `street_view_var` | Turun Google Street View yayını var mı |
+| `cekim_yili` | G360 saha kaydı (her kayıtta yoktur) |
+| `yayin_yili` | G360 yayın kaydı (her kayıtta yoktur) |
 
 `google_cid` kalıcıdır ve işletme taşınsa veya adını değiştirse bile değişmez;
 `google_place_id` ise zaman içinde değişebilir. Eşleştirme yapacaksanız `google_cid`
@@ -70,18 +75,20 @@ tercih edilmelidir.
 
 ## 4. Uygulanan temizlik işlemleri
 
-**Puan alanı tip düzeltmesi.** Kaynak veride 107 kaydın puanı sayı yerine metin olarak
-saklanmıştı (`"4.4"` gibi). Bu kayıtlar sayıya çevrildi. Düzeltme öncesinde ortalama puan
-4,27 ve 4,5+ puanlı işletme sayısı 470 görünüyordu; düzeltme sonrası doğru değerler
-**4,28** ve **514** olarak hesaplanmıştır.
+**Puan alanı tip düzeltmesi.** Kaynak veride bir bölüm kaydın puanı sayı yerine metin
+olarak saklanmıştı (`"4.4"` gibi). Bu kayıtlar sayıya çevrilir. 2026.10 sürümünde
+düzeltme sonrası ortalama puan **4,29**, 4,5 ve üzeri puanlı işletme sayısı **607**'dir.
 
 **İlçe yazım birliği.** Aynı ilçe farklı büyük/küçük harf biçimleriyle kaydedilmişti
 (örneğin Sivas'ta `Merkez`, `MERKEZ`, `merkez`). Her (il, ilçe) çifti için en sık kullanılan
-yazım kanonik kabul edilerek diğerleri ona eşitlendi. Bu düzeltme olmadan ilçe sayısı 185,
-düzeltmeyle **183** çıkmaktadır.
+yazım kanonik kabul edilerek diğerleri ona eşitlendi. Bu düzeltme olmadan ilçe sayısı
+olduğundan yüksek çıkar; 2026.10 sürümünde yazım birliğinden sonra **199** ilçe vardır.
 
-**Sektör ataması.** Çok kategorili kayıtlarda (`ozel,restoran` gibi) virgülden önceki ilk
-kategori birincil kabul edilmiştir.
+**Sektör ataması.** Çok kategorili kayıtlarda (`turistik,ozel` gibi) virgülden önceki ilk
+kategori birincil kabul edilir ve `sektor_kod` alanına yazılır. 2026.10 ile birlikte
+etiketlerin tamamı `sektor_etiketleri` alanında da korunur; 18 kayıt birden çok etiket
+taşır. Bu nedenle 2026.08'de `ozel` kodunda görünen turistik mekânlar artık `turistik`
+kodundadır, eski etiketleri `sektor_etiketleri` içinde durur.
 
 **Puanı olmayan kayıtlar** ortalama hesabına dahil edilmemiştir.
 
@@ -119,8 +126,8 @@ sayıda açıklama mümkündür ve bu veriyle ayrıştırılamaz.
 
 ## 7. Sürüm ve güncelleme
 
-Sürüm biçimi `YYYY.AA`. Bu belge **2026.08** sürümünü açıklar; derleme tarihi
-**3 Ağustos 2026**'dır.
+Sürüm biçimi `YYYY.AA`. Bu belge **2026.10** sürümünü açıklar; derleme tarihi
+**25 Ekim 2026**'dır. Sürümler arası farklar: [CHANGELOG.md](CHANGELOG.md).
 
 Puan ve yorum sayıları derleme anındaki değerlerdir ve zaman içinde değişir. Karşılaştırmalı
 analiz yapacaksanız sürüm numarasını belirtin.
